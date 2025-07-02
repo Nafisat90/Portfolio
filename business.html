@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flavour Me Fruity</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #fff8f0;
+    }
+
+    header {
+      background: #ffcc70;
+      padding: 1.5em 1em;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2.2em;
+      margin-bottom: 0.3em;
+    }
+
+    nav a {
+      margin: 0 1em;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #e85d04;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+                  url('your-smoothie-image.jpg') no-repeat center/cover;
+      color: white;
+      padding: 6em 1em;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.5em;
+      margin-bottom: 0.5em;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 1em;
+    }
+
+    .hero .btn {
+      background-color: #ff7f50;
+      color: white;
+      padding: 0.7em 1.5em;
+      border: none;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+
+    .hero .btn:hover {
+      background-color: #e85d04;
+    }
+
+    section {
+      padding: 3em 1em;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    section h2 {
+      color: #ff7f50;
+      margin-bottom: 1em;
+      text-align: center;
+    }
+
+    #products .products {
+      display: flex;
+      gap: 1.5em;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .product {
+      background: #fff;
+      border-radius: 12px;
+      padding: 1em;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 250px;
+    }
+
+    .product img {
+      max-width: 100%;
+      border-radius: 8px;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .product p {
+      margin-top: 0.8em;
+      font-weight: bold;
+      color: #333;
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1.5em 1em;
+      margin-top: 3em;
+    }
+
+    @media (max-width: 768px) {
+      .product {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Flavour Me Fruity</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Fuel Your Day, the Fresh Way</h2>
+    <p>Natural juices and smoothies made to nourish and refresh you.</p>
+    <a class="btn" href="https://yourbusinesssite.com" target="_blank">Visit Our Official Website</a>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p style="text-align: center; max-width: 700px; margin: 0 auto;">
+      Flavour Me Fruity offers a variety of wholesome juices and smoothies made from fresh, organic ingredients. Our mission is to inspire healthier lifestyles, one delicious sip at a time.
+    </p>
+  </section>
+
+  <section id="products">
+    <h2>Our Juices & Smoothies</h2>
+    <div class="products">
+      <div class="product">
+        <img src="juice1.jpg" alt="Orange Juice">
+        <p>Sunshine Orange</p>
+      </div>
+      <div class="product">
+        <img src="juice2.jpg" alt="Berry Mix">
+        <p>Berry Boost</p>
+      </div>
+      <div class="product">
+        <img src="juice3.jpg" alt="Green Juice">
+        <p>Detox Green</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p style="text-align: center;">
+      WhatsApp: <strong>0814 484 1500</strong><br/>
+      Email: <strong>flavourmefruity@gmail.com</strong>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Flavour Me Fruity. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
